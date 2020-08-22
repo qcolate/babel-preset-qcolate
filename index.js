@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = (api, options = {}) => {
   api.cache(true);
 
@@ -8,10 +10,6 @@ module.exports = (api, options = {}) => {
   const runtimeVersion = require('@babel/runtime/package.json').version;
 
   const {
-    // moduleResolver: {
-    //   // root: ['./src'],
-    //   alias: {},
-    // },
     ignoreBrowserslistConfig = process.env.NODE_ENV === 'test',
     // entry file list
     // Undocumented option of @babel/plugin-transform-runtime.
