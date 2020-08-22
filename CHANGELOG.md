@@ -1,3 +1,7 @@
+## [0.0.2](https://github.com/qcolate/bebel-perset-qcolate/compare/v0.0.1...v0.0.2) (2020-08-22)
+
+
+
 ## 0.0.1 (2020-08-22)
 
 
