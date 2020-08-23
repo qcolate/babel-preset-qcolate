@@ -1,9 +1,7 @@
 {
   "name": "babel-preset-qcolate",
-  "author": "qcolate@outlook.com",
+  "author": "solidzoro <solidzoro@live.com>",
   "version": "0.0.4",
-  "private": false,
-  "sideEffect": false,
   "license": "MIT",
   "engines": {
     "node": ">=12",
@@ -11,9 +9,13 @@
     "yarn": ">=1.15"
   },
   "main": "index.js",
-  "homepage": "https://github.com/qcolate/bebel-perset-qcolate",
+  "homepage": "https://github.com/qcolate/babel-preset-qcolate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qcolate/babel-preset-qcolate.git"
+  },
   "bugs": {
-    "url": "https://github.com/qcolate/bebel-perset-qcolate/issues"
+    "url": "https://github.com/qcolate/babel-preset-qcolate/issues"
   },
   "publishConfig": {
     "access": "public",
@@ -28,6 +30,13 @@
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
     "release": "npm publish --dist-tag"
   },
+  "keywords": [
+    "babel",
+    "preset",
+    "babelpreset",
+    "javascript",
+    "typescript"
+  ],
   "dependencies": {
     "@babel/core": "^7.11.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -43,7 +52,6 @@
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
     "@babel/runtime": "^7.11.2",
-    "babel-eslint": "^10.1.0",
     "babel-plugin-import": "^1.12.1",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-module-resolver": "^4.0.0",
@@ -52,8 +60,6 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^9.1.2",
-    "@typescript-eslint/eslint-plugin": "^3.9.0",
-    "@typescript-eslint/parser": "^3.6.1",
     "commitlint": "^9.1.2"
   }
 }
