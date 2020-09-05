@@ -28,10 +28,10 @@
   },
   "scripts": {
     "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
-    "release": "standard-version",
-    "release:minor": "standard-version -r minor",
-    "release:major": "standard-version -r major",
-    "push": "git push --follow-tags origin master && npm publish"
+    "publish-npm": "git push --follow-tags origin master && npm publish",
+    "release": "standard-version && yarn publish-npm",
+    "release:minor": "standard-version -r minor && yarn publish-npm",
+    "release:major": "standard-version -r major && yarn pupublish-npmsh"
   },
   "keywords": [
     "babel",
