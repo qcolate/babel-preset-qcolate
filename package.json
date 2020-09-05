@@ -31,7 +31,7 @@
     "publish-npm": "git push --follow-tags origin master && npm publish",
     "release": "standard-version && yarn publish-npm",
     "release:minor": "standard-version -r minor && yarn publish-npm",
-    "release:major": "standard-version -r major && yarn pupublish-npmsh"
+    "release:major": "standard-version -r major && yarn publish-npm"
   },
   "keywords": [
     "babel",
