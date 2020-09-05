@@ -27,8 +27,8 @@
     }
   },
   "scripts": {
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
-    "release": "npm publish --dist-tag"
+    "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
+    "release": "standard-version"
   },
   "keywords": [
     "babel",
