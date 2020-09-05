@@ -1,3 +1,7 @@
+# [1.0.0](https://github.com/qcolate/babel-preset-qcolate/compare/v0.0.5...v1.0.0) (2020-09-05)
+
+
+
 ## [0.0.5](https://github.com/qcolate/babel-preset-qcolate/compare/v0.0.4...v0.0.5) (2020-08-23)
 
 
