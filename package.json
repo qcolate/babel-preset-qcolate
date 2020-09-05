@@ -28,8 +28,7 @@
   },
   "scripts": {
     "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
-    "release": "standard-version",
-    "publish": "git push --follow-tags origin master && npm publish"
+    "release": "standard-version"
   },
   "keywords": [
     "babel",
