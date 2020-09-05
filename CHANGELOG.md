@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.2...v1.0.3) (2020-09-05)
+
+
+### Chore
+
+* delete script publish ([08c078e](https://github.com/qcolate/babel-preset-qcolate/commit/08c078ea92536cc557d98f2f970a8057d38d6da9))
+
 ### [1.0.2](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.1...v1.0.2) (2020-09-05)
 
 
