@@ -28,10 +28,13 @@
   },
   "scripts": {
     "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
-    "publish-npm": "git push --follow-tags origin master && npm publish",
-    "release": "standard-version && yarn publish-npm",
-    "release:minor": "standard-version -r minor && yarn publish-npm",
-    "release:major": "standard-version -r major && yarn publish-npm"
+    "npm-publish": "git push --follow-tags origin master && npm publish",
+    "versionup": "standard-version",
+    "versionup:minor": "standard-version -r minor",
+    "versionup:major": "standard-version -r major",
+    "release": "yarn versionup && yarn npm-publish",
+    "release:minor": "yarn versionup:minor && yarn npm-publish",
+    "release:major": "yarn versionup:major && yarn npm-publish"
   },
   "keywords": [
     "babel",
