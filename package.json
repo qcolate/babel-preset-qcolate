@@ -28,7 +28,9 @@
   },
   "scripts": {
     "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0 -s",
-    "release": "standard-version"
+    "release": "standard-version",
+    "release:minor": "standard-version -r minor",
+    "release:major": "standard-version -r major"
   },
   "keywords": [
     "babel",
