@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.3...v1.0.4) (2020-09-05)
+
+
+### Chore
+
+* add push script (publish to npm) ([f538a1f](https://github.com/qcolate/babel-preset-qcolate/commit/f538a1f34efbc92df9dc41f906d32bc2f4c90bf4))
+* add release minor and major ([548b7a2](https://github.com/qcolate/babel-preset-qcolate/commit/548b7a273e60a3a2e19c98bd51fd9646e7b6127c))
+* merge release and publish ([ea6be6e](https://github.com/qcolate/babel-preset-qcolate/commit/ea6be6e29e7186d46dfb9e72f30b9af3a2eef7e9))
+
 ### [1.0.3](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.2...v1.0.3) (2020-09-05)
 
 
