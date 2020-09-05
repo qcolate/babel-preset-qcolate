@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.1...v1.0.2) (2020-09-05)
+
+
+### Chore
+
+* update veriosnrc ([0f529f2](https://github.com/qcolate/babel-preset-qcolate/commit/0f529f21a3f3c3fb76fb927169373e3589aab23d))
+
 ### [1.0.1](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.0...v1.0.1) (2020-09-05)
 
 
