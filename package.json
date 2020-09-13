@@ -32,9 +32,7 @@
     "versionup": "standard-version -r patch",
     "versionup:minor": "standard-version -r minor",
     "versionup:major": "standard-version -r major",
-    "release": "yarn versionup && yarn npm-publish",
-    "release:minor": "yarn versionup:minor && yarn npm-publish",
-    "release:major": "yarn versionup:major && yarn npm-publish"
+    "release": "npm-publish"
   },
   "keywords": [
     "babel",
