@@ -46,7 +46,14 @@ module.exports = (api, options = {}) => {
         useBuiltIns: true,
       },
     ],
-    [require('@babel/preset-typescript')],
+    [
+      require('@babel/preset-typescript'),
+      {
+        // this is important for proper files watching
+        // https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/blob/master/examples/babel-loader/.babelrc.js
+        onlyRemoveTypeImports: true,
+      },
+    ],
   ];
 
   const plugins = [
