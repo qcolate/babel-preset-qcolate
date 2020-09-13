@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.4...v1.0.5) (2020-09-13)
+
+
+### Features
+
+* add onlyRemoveTypeImports to preset-typescript ([dba8e78](https://github.com/qcolate/babel-preset-qcolate/commit/dba8e784fe811be744f68460b8935ee690375ad1))
+
+
+### Bug Fixes
+
+* major script ([4ed7562](https://github.com/qcolate/babel-preset-qcolate/commit/4ed7562fc9545f1ede77336b9a939dcb426fb2b2))
+
+
+### Chore
+
+* update scripts ([32aab7c](https://github.com/qcolate/babel-preset-qcolate/commit/32aab7c3554dc05ba21f4030237e87223dd9592f))
+
 ### [1.0.4](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.3...v1.0.4) (2020-09-05)
 
 
