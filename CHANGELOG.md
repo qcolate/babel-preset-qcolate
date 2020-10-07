@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.6...v1.0.7) (2020-10-07)
+
+
+### Bug Fixes
+
+* can't be used with legacy decorators decoratorsBeforeExp ([ba6883b](https://github.com/qcolate/babel-preset-qcolate/commit/ba6883b01be6a95a0ff80564553871f4f66379eb))
+
+
+### Refactor
+
+* .prettierignore add *.md ([d787cf3](https://github.com/qcolate/babel-preset-qcolate/commit/d787cf3df02156c2f3c2d60382c94c06d8702f68))
+
 ### [1.0.6](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.4...v1.0.6) (2020-10-07)
 
 
