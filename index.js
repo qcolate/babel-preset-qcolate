@@ -57,7 +57,7 @@ module.exports = (api, options = {}) => {
   ];
 
   const plugins = [
-    [require('@babel/plugin-proposal-decorators'), { legacy: true, decoratorsBeforeExport: true }],
+    [require('@babel/plugin-proposal-decorators'), { legacy: true }],
     [require('@babel/plugin-proposal-class-properties'), { loose: true }],
     [require('@babel/plugin-proposal-numeric-separator')],
     [
