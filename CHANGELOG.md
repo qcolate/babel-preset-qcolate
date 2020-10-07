@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.4...v1.0.6) (2020-10-07)
+
+
+### Features
+
+* add onlyRemoveTypeImports to preset-typescript ([dba8e78](https://github.com/qcolate/babel-preset-qcolate/commit/dba8e784fe811be744f68460b8935ee690375ad1))
+* enable decoratorsBeforeExport ([ffc418c](https://github.com/qcolate/babel-preset-qcolate/commit/ffc418c47c6d62b96f7304c24d5a46d72f2bdff6))
+
+
+### Bug Fixes
+
+* major script ([4ed7562](https://github.com/qcolate/babel-preset-qcolate/commit/4ed7562fc9545f1ede77336b9a939dcb426fb2b2))
+
+
+### Refactor
+
+* release script ([7572b05](https://github.com/qcolate/babel-preset-qcolate/commit/7572b05f8ad7495c6f12f43b660d057790b07bd8))
+* release script ([adfea19](https://github.com/qcolate/babel-preset-qcolate/commit/adfea1977744bfa3f00b88b048a341be59ce01c2))
+
+
+### Chore
+
+* update dependencies ([7deda42](https://github.com/qcolate/babel-preset-qcolate/commit/7deda42ce8d2c11cf13709645dd6ad0b2da946ca))
+* **release:** 1.0.5 ([a11692f](https://github.com/qcolate/babel-preset-qcolate/commit/a11692f214ae0c8c46234e08c0883cbf75d9a8d4))
+* update scripts ([32aab7c](https://github.com/qcolate/babel-preset-qcolate/commit/32aab7c3554dc05ba21f4030237e87223dd9592f))
+
 ### [1.0.5](https://github.com/qcolate/babel-preset-qcolate/compare/v1.0.4...v1.0.5) (2020-09-13)
 
 
