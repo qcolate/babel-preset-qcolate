@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-qcolate",
   "author": "solidzoro <solidzoro@live.com>",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "engines": {
     "node": ">=12",
